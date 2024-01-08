@@ -11,11 +11,9 @@
         <table class="table">
         <?php 
             for ($i=0; $i<6; $i++) {
-                $iindex= $i ;
                 echo "<tr>";
                 for ($j=0; $j<7;$j++){
-                    $jindex= $j ;
-                    echo "<td></td>";
+                    echo "<td class='index ".$i."/".$j."'></td>";
                 };
                 echo "</tr>";
             };
