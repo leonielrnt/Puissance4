@@ -47,7 +47,8 @@ h1 {
 
 /* SELECTORS */
 .player_1,
-.player_2 {
+.player_2,
+form {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
