@@ -25,7 +25,8 @@
 </head>
 <body>
     <div class="player_1">
-        <input type="hidden" name="plyer_1" value="j1">
+        <h1>Player 1</h1>
+        <input type="hidden" name="joueur" value="j1">
         <select name="colonne">
             <option value="">-- Sélectionner une ligne --</option>
             <option value="1">Ligne 1</option>
@@ -35,6 +36,7 @@
             <option value="5">Ligne 5</option>
             <option value="6">Ligne 6</option>
         </select>
+        <input type="submit" name="jouer" value="Jouer">
     </div>
     <div class="board">
         <table class="table">
@@ -57,7 +59,8 @@
         </table>
     </div>
     <div class="player_2">
-        <input type="hidden" name="player_2" value="j2">
+        <h1>Player 2</h1>
+        <input type="hidden" name="joueur" value="j2">
         <select name="colonne">
             <option value="">-- Sélectionner une ligne --</option>
             <option value="1">Ligne 1</option>
@@ -67,6 +70,7 @@
             <option value="5">Ligne 5</option>
             <option value="6">Ligne 6</option>
         </select>
+        <input type="submit" name="jouer" value="Jouer">
     </div>
 </body>
 </html>
