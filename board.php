@@ -43,20 +43,20 @@
     <div class="board">
         <table class="table">
         <?php 
-            function displayBoard(){
-                for ($i=0; $i<6; $i++) {
-                    echo "<tr>";
-                    for ($j=0; $j<7;$j++){
-                        // couleurs 1 ligne sur 2 :
-                        // $style=($i%2==0)?"j1":"j2";
-                        // echo "<td class=".$style."></td>";
-                        echo "<td></td>";
-                    };
-                    echo "</tr>";
+            for ($i=0; $i<6; $i++) {
+                echo "<tr>";
+                for ($j=0; $j<7;$j++){
+                    // couleurs 1 ligne sur 2 :
+                    // $style=($i%2==0)?"j1":"j2";
+                    // echo "<td class=".$style."></td>";
+                    $style = (is_null($_SESSION['board'][$i][$j])) ? "libre" : (($_SESSION['board'][$i][$j] == 1) ? "j1" : "j2");
+                    ?>
+                    <td class= "<?= $style ?>"></td>
+                    <?php
                 };
+                echo "</tr>";
             };
-
-            displayBoard();
+        
         ?>
         </table>
     </div>
