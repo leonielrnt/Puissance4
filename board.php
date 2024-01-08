@@ -21,6 +21,7 @@
                 <option value="3">Colonne 4</option>
                 <option value="4">Colonne 5</option>
                 <option value="5">Colonne 6</option>
+                <option value="6">Colonne 7</option>
             </select>
             <input type="submit" name="jouer" value="Jouer"/>
         </form>
@@ -59,6 +60,7 @@
                 <option value="3">Colonne 4</option>
                 <option value="4">Colonne 5</option>
                 <option value="5">Colonne 6</option>
+                <option value="6">Colonne 7</option>
             </select>
             <input type="submit" name="jouer" value="Jouer"/>
         </form>
