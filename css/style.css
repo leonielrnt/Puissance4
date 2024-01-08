@@ -34,9 +34,6 @@ h1 {
   transition: background-color 0.2s ease;
   border-radius: 100px;
 }
-.table td:hover {
-  background-color: #dc711860;
-}
 
 .j1 {
   background-color: #b4013a;
