@@ -7,8 +7,6 @@ body {
   margin: 0;
 }
 
-/* Jetons : F1AB86 & 9CAFB7 */
-
 /* BOARD */
 .board {
   background-color: #f1ab86;
@@ -31,4 +29,11 @@ body {
 
 .table td:hover {
   background-color: #dc7118;
+}
+
+.j1 {
+  background-color: #f1ab86;
+}
+.j2 {
+  background-color: #9cafb7;
 }

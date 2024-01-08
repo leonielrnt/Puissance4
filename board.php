@@ -31,7 +31,8 @@
                 for ($i=0; $i<6; $i++) {
                     echo "<tr>";
                     for ($j=0; $j<7;$j++){
-                        echo "<td></td>";
+                        $style=(($i+$j)%2==0)?"j1":"j2";
+                        echo "<td class=".$style."></td>";
                         // Note pour mettre une classe que 1 ligne sur 2 : $style = ($i%2==0)?"j1":"j2";
                         // <td class = "<? = $style
                     };
