@@ -1,20 +1,3 @@
-    <!-- ### 1. Affichage de la grille.
-    
-    À ce stade, vous pourrez créer un script `board.php` (par exemple), dont leur seul but sera d'afficher une grille, éventuellement partiellement remplie.
-
-    Pour cela, vous aurez deux tâches à remplir :
-
-    1. Créer une structure de données qui représente l'état du jeu
-        - PHP, comme la plupart des langages de programmation, comprend des types de tableaux pour représenter des collections ou des listes.
-        - Vous devrez choisir les valeurs représentant les états des différentes cellules de la grille
-    2. Créer une fonction PHP (voire plusieurs au besoin) `displayBoard` qui affichera à l'écran le contenu de la structure de données définie précédemment.
-        - Vous ferez en sorte que la grille s'affiche à l'écran par l'intermédiaire d'une grille (`grid`) CSS.
-        - Il faudra incorporer des images pour visualiser les jetons déjà placés par les joueurs
-
-    En termes de bonnes pratiques, vous pourrez utilement (notamment pour la suite) déclarer votre structure de données dans un fichier séparé (`grid.php`).
-
-    À ce stade, nous voulons seulement pouvoir intégrer des valeurs arbitraires dans la structure de données et voir le résultat s'afficher à l'écran. -->
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -24,6 +7,8 @@
     <title>Puissance 4</title>
 </head>
 <body>
+
+    <!-- Scroll de choix de colonne J1 -->
     <div class="player_1">
         <h1>Player 1</h1>
         <form action="play.php" method="post">
@@ -40,15 +25,15 @@
             <input type="submit" name="jouer" value="Jouer"/>
         </form>
     </div>
+
+    <!-- GRILLE DE JEU -->
     <div class="board">
         <table class="table">
         <?php 
             for ($i=0; $i<6; $i++) {
                 echo "<tr>";
                 for ($j=0; $j<7;$j++){
-                    // couleurs 1 ligne sur 2 :
-                    // $style=($i%2==0)?"j1":"j2";
-                    // echo "<td class=".$style."></td>";
+                    // On adapte la couleur de la case au joueur qui l'a remplie si c'est le cas
                     $style = (is_null($_SESSION['board'][$i][$j])) ? "libre" : (($_SESSION['board'][$i][$j] == "j1") ? "j1" : "j2");
                     ?>
                     <td class= "<?= $style ?>"></td>
@@ -60,6 +45,8 @@
         ?>
         </table>
     </div>
+
+    <!-- Scroll de choix de colonne J2 -->
     <div class="player_2">
         <h1>Player 2</h1>
         <form action="play.php" method="post">
