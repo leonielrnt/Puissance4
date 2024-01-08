@@ -13,6 +13,17 @@ Pour cela, nous allons avoir plusieurs choses à faire :
 -->
 
 <?php
+include "board.php";
 
 $player1;
 $player2;
+
+function checkMove($player, $column){
+    // Vérifie que le joueur a bien joué dans les limites de la grille : true si oui, false sinon
+    if ($column < 0 || $column > 6){
+        return false;
+    }
+        return true;
+}
+
+function registerMove($player,$column){};
