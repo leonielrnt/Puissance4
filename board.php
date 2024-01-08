@@ -30,12 +30,12 @@
             <input type="hidden" name="joueur" value="j1"/>
             <select name="colonne">
                 <option value="">-- Sélectionner une colonne --</option>
-                <option value="1">Colonne 1</option>
-                <option value="2">Colonne 2</option>
-                <option value="3">Colonne 3</option>
-                <option value="4">Colonne 4</option>
-                <option value="5">Colonne 5</option>
-                <option value="6">Colonne 6</option>
+                <option value="0">Colonne 1</option>
+                <option value="1">Colonne 2</option>
+                <option value="2">Colonne 3</option>
+                <option value="3">Colonne 4</option>
+                <option value="4">Colonne 5</option>
+                <option value="5">Colonne 6</option>
             </select>
             <input type="submit" name="jouer" value="Jouer"/>
         </form>
@@ -66,12 +66,12 @@
             <input type="hidden" name="joueur" value="j2"/>
             <select name="colonne">
                 <option value="">-- Sélectionner une colonne --</option>
-                <option value="1">Colonne 1</option>
-                <option value="2">Colonne 2</option>
-                <option value="3">Colonne 3</option>
-                <option value="4">Colonne 4</option>
-                <option value="5">Colonne 5</option>
-                <option value="6">Colonne 6</option>
+                <option value="0">Colonne 1</option>
+                <option value="1">Colonne 2</option>
+                <option value="2">Colonne 3</option>
+                <option value="3">Colonne 4</option>
+                <option value="4">Colonne 5</option>
+                <option value="5">Colonne 6</option>
             </select>
             <input type="submit" name="jouer" value="Jouer"/>
         </form>
