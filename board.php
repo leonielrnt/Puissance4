@@ -49,7 +49,7 @@
                     // couleurs 1 ligne sur 2 :
                     // $style=($i%2==0)?"j1":"j2";
                     // echo "<td class=".$style."></td>";
-                    $style = (is_null($_SESSION['board'][$i][$j])) ? "libre" : (($_SESSION['board'][$i][$j] == 1) ? "j1" : "j2");
+                    $style = (is_null($_SESSION['board'][$i][$j])) ? "libre" : (($_SESSION['board'][$i][$j] == "j1") ? "j1" : "j2");
                     ?>
                     <td class= "<?= $style ?>"></td>
                     <?php
