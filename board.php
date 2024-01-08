@@ -27,7 +27,7 @@
     <div class="player_1">
         <h1>Player 1</h1>
         <form action="play.php" method="post">
-            <input type="hidden" name="joueur" value="j1">
+            <input type="hidden" name="joueur" value="j1"/>
             <select name="colonne">
                 <option value="">-- Sélectionner une ligne --</option>
                 <option value="1">Ligne 1</option>
@@ -37,7 +37,7 @@
                 <option value="5">Ligne 5</option>
                 <option value="6">Ligne 6</option>
             </select>
-            <input type="submit" name="jouer" value="Jouer">
+            <input type="submit" name="jouer" value="Jouer"/>
         </form>
     </div>
     <div class="board">
@@ -63,7 +63,7 @@
     <div class="player_2">
         <h1>Player 2</h1>
         <form action="play.php" method="post">
-            <input type="hidden" name="joueur" value="j2">
+            <input type="hidden" name="joueur" value="j2"/>
             <select name="colonne">
                 <option value="">-- Sélectionner une ligne --</option>
                 <option value="1">Ligne 1</option>
@@ -73,7 +73,7 @@
                 <option value="5">Ligne 5</option>
                 <option value="6">Ligne 6</option>
             </select>
-            <input type="submit" name="jouer" value="Jouer">
+            <input type="submit" name="jouer" value="Jouer"/>
         </form>
     </div>
 </body>
