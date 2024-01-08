@@ -23,11 +23,11 @@ body {
 .table td {
   width: 100px;
   height: 100px;
-  border: 1.5px solid #bb6011;
+  border: 1.5px solid #dc7118;
   box-sizing: border-box;
   transition: background-color 0.2s ease;
 }
 
 .table td:hover {
-  background-color: #bb6011;
+  background-color: #dc7118;
 }
