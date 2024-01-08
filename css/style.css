@@ -34,9 +34,8 @@ h1 {
   box-sizing: border-box;
   transition: background-color 0.2s ease;
 }
-
 .table td:hover {
-  background-color: #dc7118;
+  background-color: #dc701860;
 }
 
 .j1 {
