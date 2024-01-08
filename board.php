@@ -24,16 +24,18 @@
     <title>Puissance 4</title>
 </head>
 <body>
-    <input type="hidden" value="j1">
-    <select>
-        <option value="">-- Sélectionner une ligne --</option>
-        <option value="1">Ligne 1</option>
-        <option value="2">Ligne 2</option>
-        <option value="3">Ligne 3</option>
-        <option value="4">Ligne 4</option>
-        <option value="5">Ligne 5</option>
-        <option value="6">Ligne 6</option>
-    </select>
+    <div class="player_1">
+        <input type="hidden" name="plyer_1" value="j1">
+        <select name="colonne">
+            <option value="">-- Sélectionner une ligne --</option>
+            <option value="1">Ligne 1</option>
+            <option value="2">Ligne 2</option>
+            <option value="3">Ligne 3</option>
+            <option value="4">Ligne 4</option>
+            <option value="5">Ligne 5</option>
+            <option value="6">Ligne 6</option>
+        </select>
+    </div>
     <div class="board">
         <table class="table">
         <?php 
@@ -54,15 +56,17 @@
         ?>
         </table>
     </div>
-    <input type="hidden" value="j1">
-    <select>
-        <option value="">-- Sélectionner une ligne --</option>
-        <option value="1">Ligne 1</option>
-        <option value="2">Ligne 2</option>
-        <option value="3">Ligne 3</option>
-        <option value="4">Ligne 4</option>
-        <option value="5">Ligne 5</option>
-        <option value="6">Ligne 6</option>
-    </select>
+    <div class="player_2">
+        <input type="hidden" name="player_2" value="j2">
+        <select name="colonne">
+            <option value="">-- Sélectionner une ligne --</option>
+            <option value="1">Ligne 1</option>
+            <option value="2">Ligne 2</option>
+            <option value="3">Ligne 3</option>
+            <option value="4">Ligne 4</option>
+            <option value="5">Ligne 5</option>
+            <option value="6">Ligne 6</option>
+        </select>
+    </div>
 </body>
 </html>
