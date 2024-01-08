@@ -10,13 +10,8 @@
     <div class="board">
         <table class="table">
         <?php 
-            for ($i=0; $i<6; $i++) {
-                echo "<tr>";
-                for ($j=0; $j<7;$j++){
-                    echo "<td></td>";
-                };
-                echo "</tr>";
-            };
+            include "board.php";
+            displayBoard();
         ?>
         </table>
     </div>
