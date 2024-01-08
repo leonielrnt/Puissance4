@@ -26,6 +26,7 @@
 <body>
     <div class="player_1">
         <h1>Player 1</h1>
+        <form action="play.php" method="post">
         <input type="hidden" name="joueur" value="j1">
         <select name="colonne">
             <option value="">-- Sélectionner une ligne --</option>
@@ -60,6 +61,7 @@
     </div>
     <div class="player_2">
         <h1>Player 2</h1>
+        <form action="play.php" method="post">
         <input type="hidden" name="joueur" value="j2">
         <select name="colonne">
             <option value="">-- Sélectionner une ligne --</option>
