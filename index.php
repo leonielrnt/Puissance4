@@ -13,7 +13,7 @@
             for ($i=0; $i<6; $i++) {
                 echo "<tr>";
                 for ($j=0; $j<7;$j++){
-                    echo "<td class='index ".$i."/".$j."'></td>";
+                    echo "<td></td>";
                 };
                 echo "</tr>";
             };
