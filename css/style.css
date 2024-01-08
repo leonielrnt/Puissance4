@@ -22,7 +22,7 @@ h1 {
 }
 
 .table {
-  /* width: 100%; */
+  width: 100%;
   border-collapse: collapse;
 }
 
@@ -32,6 +32,7 @@ h1 {
   border: 1.5px solid #dc7118;
   box-sizing: border-box;
   transition: background-color 0.2s ease;
+  border-radius: 100px;
 }
 .table td:hover {
   background-color: #dc711860;

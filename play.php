@@ -1,8 +1,6 @@
 <?php
 session_start();
 
-// echo "<p> Le joueur {$_POST['joueur']} a joué dans la colonne {$_POST['colonne']} </p>";
-
 // Traitement des coups joués
 function play($player, $column) {
     for ($row = 5; $row >= 0; $row--) {
