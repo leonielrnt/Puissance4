@@ -9,11 +9,11 @@ function play($player, $column) {
             break;
         }
     }
+    $_SESSION['count']++;
     return true;
 }
 
 play($_POST['joueur'], $_POST['colonne']);
-
 
 // Envoi de la grille mise à jour
 require_once("board.php");

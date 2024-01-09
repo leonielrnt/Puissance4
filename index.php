@@ -9,6 +9,7 @@ for ($row = 0; $row < 6; $row++) {
         $board[$row][$column] = null;
     };
 };
+$_SESSION['count'] = 0;
 
 require_once("board.php");
 ?>
