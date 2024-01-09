@@ -71,7 +71,7 @@
         <?php
             require_once("endGame.php");
             if (checkEndGame() == false) {
-                echo "<h2>Partie en cours</h2>";
+                echo '<h2>Partie en cours</h2>';
             }
             displayEndGame();
         ?>

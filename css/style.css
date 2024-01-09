@@ -3,7 +3,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 50px;
+  gap: 20px;
   height: auto;
   margin: 0;
   font-size: 24px;
@@ -24,7 +24,7 @@ h2 {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 100px;
+  margin-top: 5px;
   gap: 50px;
 }
 
@@ -90,4 +90,31 @@ input {
 }
 input:hover {
   background-color: #e9955d;
+}
+
+/* ANNOUCEMENTS */
+
+.annoucements {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.newGame {
+  font-size: 20px;
+  font-weight: bold;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+.newGame a {
+  text-decoration: underline;
+  color: #dc7118;
+}
+
+.null {
+  margin-top: 5px;
+  text-align: center;
 }
