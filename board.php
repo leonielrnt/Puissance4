@@ -12,7 +12,7 @@
         <div class="player_1">
             <h1>Player 1</h1>
             <form action="play.php" method="post">
-                <input type="hidden" name="joueur" value="j1"/>
+                <input type="hidden" name="joueur" value="1"/>
                 <select name="colonne">
                     <option value="">-- Sélectionner une colonne --</option>
                     <option value="0">Colonne 1</option>
@@ -50,7 +50,7 @@
         <div class="player_2">
             <h1>Player 2</h1>
             <form action="play.php" method="post">
-                <input type="hidden" name="joueur" value="j2"/>
+                <input type="hidden" name="joueur" value="2"/>
                 <select name="colonne">
                     <option value="">-- Sélectionner une colonne --</option>
                     <option value="0">Colonne 1</option>

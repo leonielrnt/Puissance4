@@ -15,5 +15,7 @@ function play($player, $column) {
 
 play($_POST['joueur'], $_POST['colonne']);
 
+$_SESSION['joueur'] = $_POST['joueur'];
+
 // Envoi de la grille mise à jour
 require_once("board.php");
