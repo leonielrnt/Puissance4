@@ -49,7 +49,8 @@ function displayEndGame() {
             echo "<h2 class='null'>Match nul !</h2>";
             echo "<div class='newGame'><a href='index.php'>Rejouer</a></div>";
         } else {
-            echo "<h2>Le joueur ".$_SESSION['joueur']." a gagné !</h2>";
+            echo "<h2 class='player_win'>Le joueur ".$_SESSION['joueur']." a gagné !</h2>";
+            echo "<div class='newGame'><a href='index.php'>Rejouer</a></div>";
         } 
     }
 }
