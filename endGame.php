@@ -47,8 +47,9 @@ function displayEndGame() {
         echo "<h1>Partie terminée !</h1>";
         if ($_SESSION['count'] == 42) {
             echo "<h2>Match nul !</h2>";
-        }
-        echo "Le joueur ".$_SESSION['joueur']." a gagné !";
+        } else {
+            echo "Le joueur ".$_SESSION['joueur']." a gagné !";
+        } 
     }
 }
 
