@@ -10,6 +10,8 @@ $password = 'root';
 $dbh = new PDO($dsn, $user, $password);
 
 /* Exécute une requête préparée en passant un tableau de valeurs */
+// on introduit nos 2 joueurs et le plateau de jeu dans notre base de données SQL
+
 $sth = $dbh->prepare('INSERT INTO history
     (`joueur_1`, `joueur_2`, `game`)
     VALUES 
