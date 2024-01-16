@@ -76,5 +76,12 @@
             displayEndGame();
         ?>
     </div>
+
+    <!-- Bouton save -->
+    <div class="save">
+        <form action="save.php" method="post">
+            <input type="submit" name="save" value="Sauvegarder"/>
+        </form>
+    </div>
 </body>
 </html>

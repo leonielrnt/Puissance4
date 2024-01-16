@@ -14,7 +14,10 @@ $sth = $dbh->prepare('INSERT INTO history
     (`j1`, `j2`, `game`)
     VALUES 
     (?, ?, ?)');
+    // on aurait pu mettre (:j1,:j2,:game)
 
-$sth->execute(['', '', '[]']);
+$g=json_encode($_SESSION['board']);
 
-?>
+$sth->execute(['Player 1', 'Player 2', $g]);
+
+require_once("board.php");
